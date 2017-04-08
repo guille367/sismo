@@ -1,0 +1,12 @@
+.pared {
+	stroke: black;
+	stroke-width: 2px;
+}
+.pared.desarrollo{
+	border: 2px solid;	
+}
+
+rect.isla{
+	stroke: black;
+	fill: #d19536;
+}
