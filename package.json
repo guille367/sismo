@@ -1,0 +1,15 @@
+{
+  "name": "sismo",
+  "version": "1.0.0",
+  "description": "Aplicación para ubicar al personal de c&s",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "guille367",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-drag-and-drop-lists": "^2.1.0"
+  }
+}

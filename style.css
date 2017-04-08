@@ -6,7 +6,29 @@
 	border: 2px solid;	
 }
 
-rect.isla{
+rect.isla-simple{
 	stroke: black;
 	fill: #d19536;
+	width: 300px;
+	height: 60px;
+}
+
+rect.isla-doble {
+	stroke: black;
+	fill: #d19536;
+	width: 300px;
+	height: 120px;
+}
+
+rect.lugar-vacio{
+	width: 90px;
+	height: 50px;
+	stroke: green;
+	fill: white;
+}
+
+svg{
+	background-image: url('jo8v6l7ivbnlupw9j444.jpg');
+	background-repeat: no-repeat;
+	background-position: center; 
 }

@@ -4,9 +4,9 @@
 		<title>C&S from the bottom</title>
 		<link rel="stylesheet" href="./style.css"/>
 	</head>
-	<body>
+	<body ng-app="app" ng-controller="myController">
 
-		<svg width="801" height="700" class="pared desarrollo">
+		<svg width="800" height="700" class="pared desarrollo">
 			PARED DESARROLLO Y TESTING
  			<line x1="400" y1="100" x2="400" y2="450" class="pared"></line>
 
@@ -22,20 +22,22 @@
  			Las islas se listan de arriba a abajo, agrupadas por sector:
 
  			DESARROLLO
-			<rect class="isla" x="0" y="60" width="300" height="60"></rect>
+			<isla-simple x="0" y="60"></isla-simple>
 
-			<rect class="isla" x="0" y="180" width="300" height="60"></rect>
-			<rect class="isla" x="0" y="240" width="300" height="60"></rect>
+			<isla-doble x="0" y="180"></isla-doble>
 
-			<rect class="isla" x="0" y="360" width="300" height="60"></rect>
-			<rect class="isla" x="0" y="420" width="300" height="60"></rect>
-
+			<isla-doble x="0" y="360"></isla-doble>
 
 			BP
-			<rect class="isla"  x="450" y="580" width="400" height="60"></rect>
+			<isla-doble x="500" y="550"></isla-doble>
 
  		</svg>
-
 	</body>
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="node_modules/angular/angular.min.js"></script>
+	<script src="node_modules/angular-drag-and-drop-lists/angular-drag-and-drop-lists.js"></script>
+	<script src="app.js"></script>
+	<script src="controllers/MyController.js"></script>
 
 </html>
